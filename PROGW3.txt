@@ -1,4 +1,4 @@
-Name     PROG3 ;
+Name     PROGW3 ;
 PartNo   00 ;
 Date     11/8/2021 ;
 Revision 01 ;
