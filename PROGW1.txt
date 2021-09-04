@@ -1,0 +1,24 @@
+Name     PROGW1 ;
+PartNo   00 ;
+Date     5/8/2021 ;
+Revision 01 ;
+Designer Engineer ;
+Company  ChunchuMaru ;
+Assembly None ;
+Location  ;
+Device   G16V8 ;
+
+/* *************** INPUT PINS *********************/
+PIN   2  =  A                       ; /*                                 */ 
+PIN   3  =  B                       ; /*                                 */ 
+PIN   4  =  C                       ; /*                                 */ 
+PIN   5  =  D                       ; /*                                 */ 
+
+/* *************** OUTPUT PINS *********************/
+PIN   12  =  F                       ; /*                                 */ 
+
+F=!A&!B&C&D#!A&B&!C&!D#A&!B&C&D#!A&B&!C&D#!A&!B&!C&!D;
+
+
+
+
